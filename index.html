@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menuja Senruk Karawita - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 shadow-sm">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <a class="text-white text-xl font-semibold" href="#">Senruk</a>
+      <ul class="flex gap-4 text-white text-sm font-medium">
+        <li><a href="#about" class="hover:text-purple-400">About Me</a></li>
+        <li><a href="#education" class="hover:text-purple-400">Education</a></li>
+        <li><a href="#activities" class="hover:text-purple-400">Activities</a></li>
+        <li><a href="#contact" class="hover:text-purple-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div class="container mx-auto px-4 py-6">
+    <!-- Profile  -->
+    <div class="bg-gray-800 rounded-lg p-6 text-center mb-6 shadow">
+      <img src="images/pro_pic.jpg" alt="Profile Image" class="w-36 h-36 mx-auto rounded-full border-4 border-gray-700 mb-4 object-cover" />
+      <h2 class="text-2xl font-semibold mb-2">Menuja Senruk Karawita</h2>
+      <p>
+        I'm a 16-year-old student with a deep passion for technology, creativity, and continuous self-improvement...
+      </p>
+      <p class="mt-3">
+        Outside of academics, I’m very active and enjoy staying physically fit...
+      </p>
+    </div>
+
+   
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="flex flex-col gap-6">
+        <div id="education" class="bg-gray-800 rounded-lg p-5 shadow">
+          <h5 class="text-xl font-semibold mb-2">Education</h5>
+          <p><strong>Institution:</strong> St David's College</p>
+          <p><strong>Subjects:</strong></p>
+          <ul class="list-disc list-inside text-gray-300">
+            <li>Mathematics</li>
+            <li>Physics</li>
+            <li>Computer Science</li>
+          </ul>
+        </div>
+
+        <!-- Activities -->
+        <div id="activities" class="bg-gray-800 rounded-lg p-5 shadow">
+          <h5 class="text-xl font-semibold mb-4">Extra Curricular Activities</h5>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="flex flex-col items-center">
+              <img src="images/basketball.jpg" alt="Basketball" class="activity-img mb-2" />
+              <span>Basketball</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="images/badminton.jpg" alt="Badminton" class="activity-img mb-2" />
+              <span>Badminton</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="images/swimming.jpg" alt="Swimming" class="activity-img mb-2" />
+              <span>Swimming</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="images/cricket.jpg" alt="Cricket" class="activity-img mb-2" />
+              <span>Cricket</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gray-800 rounded-lg p-5 shadow">
+        <h5 class="text-xl font-semibold mb-4">Predicted Grades</h5>
+        <table class="w-full text-center table-auto border border-gray-600">
+          <thead class="bg-gray-700">
+            <tr>
+              <th class="py-2 px-4 border border-gray-600">Subject</th>
+              <th class="py-2 px-4 border border-gray-600">Predicted Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="py-2 px-4 border border-gray-600">Maths AS</td>
+              <td class="py-2 px-4 border border-gray-600">A</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-4 border border-gray-600">Physics AS</td>
+              <td class="py-2 px-4 border border-gray-600">B</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-4 border border-gray-600">Computer Science AS</td>
+              <td class="py-2 px-4 border border-gray-600">B</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Social Links -->
+    <div class="flex justify-center gap-4 mt-6">
+      <a href="https://github.com/Senruk" target="_blank" class="icon-btn">
+        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/github.svg" alt="GitHub" class="w-5 invert" />
+      </a>
+      <a href="https://www.linkedin.com/in/senruk-karawita/" target="_blank" class="icon-btn">
+        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/linkedin.svg" alt="LinkedIn" class="w-5 invert" />
+      </a>
+    </div>
+    <footer class="text-center text-sm text-gray-500 mt-6">
+      &copy; 2025 Menuja Senruk Karawita
+    </footer>
+  </div>
+
+</body>
+</html>

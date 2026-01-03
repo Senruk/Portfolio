@@ -1,0 +1,23 @@
+.activity-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.5rem; /* rounded-lg */
+  border: 2px solid #444;
+  transition: transform 0.2s ease;
+}
+
+.activity-img:hover {
+  transform: scale(1.05);
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.375rem; /* rounded-md */
+}
